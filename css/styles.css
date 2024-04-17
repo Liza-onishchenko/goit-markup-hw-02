@@ -14,8 +14,8 @@ button {
 
 body {
     font-family: "Roboto", sans-serif;
-    color: #2e2f42;
-    background-color: #ffffff;;
+    background-color: #ffffff;
+    color: #434455;
 }
 
 
@@ -29,7 +29,6 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    text-transform: uppercase;
 }
 
 .logo-color {
@@ -68,13 +67,24 @@ body {
 
 /* ============ HERO  ============ */
 
+.section-hero {
+    background-color: #2e2f42;
+    max-width: 100%;
+    padding: 188px 0;
+}
+
 .main-title {
+    display: block;
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.1;
+    line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;
-    background-color: #2e2f42;
+    text-align: center;display: block;
+     color: #ffffff;
+    margin: 0 auto 54px auto;
+    max-width: 496px;
+    
+
 }
 
 .order-service-btn {
@@ -84,6 +94,12 @@ body {
     letter-spacing: 0.04em;
     color: #ffffff;
     background: #4d5ae5;
+    cursor: pointer;
+    border-radius: 4px;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    margin: 0 auto;
 }
 
 .order-service-btn:hover,
@@ -115,7 +131,7 @@ body {
 .section-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
@@ -152,7 +168,7 @@ body {
     width: 264px;
     height: 380px;
     width: calc((100% - 48px) / 3);
-    background-color: #f4f4fd;
+    background-color: #ffffff;
 } 
 
 /* ============ Portfolio  ============ */
@@ -198,5 +214,5 @@ body {
     background-color: #2e2f42;  
 }
 .logo-color {
-    color: #f4f4fd
+    color: #2e2f42
 }
