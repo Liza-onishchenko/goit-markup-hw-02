@@ -41,11 +41,12 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .menu-link:hover,
 .menu-link:focus{
-color: #404bbf;
+    color: #404bbf;
 }
 
 .contact-list-link {
@@ -61,6 +62,10 @@ color: #404bbf;
     color: #404bbf;
 }
 
+.contact {
+    font-style: normal
+}
+
 /* ============ HERO  ============ */
 
 .main-title {
@@ -69,6 +74,7 @@ color: #404bbf;
     line-height: 1.1;
     letter-spacing: 0.02em;
     text-align: center;
+    background-color: #2e2f42;
 }
 
 .order-service-btn {
@@ -106,11 +112,6 @@ color: #404bbf;
 
 /* ============ Our Team  ============ */
 
-.section-team{
-    background-color: #f4f4fd;
-    
-}
-
 .section-title {
     font-weight: 700;
     font-size: 36px;
@@ -118,6 +119,8 @@ color: #404bbf;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .team-list-title {
@@ -127,6 +130,7 @@ color: #404bbf;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .team-list-text {
@@ -138,7 +142,9 @@ color: #404bbf;
     color: #434455;
 }
 
-
+.section-team {
+    background-color: #f4f4fd;
+}
 
 .section-list-item {
     border-radius: 0 0 4px 4px;
@@ -146,6 +152,7 @@ color: #404bbf;
     width: 264px;
     height: 380px;
     width: calc((100% - 48px) / 3);
+    background-color: #f4f4fd;
 } 
 
 /* ============ Portfolio  ============ */
@@ -153,10 +160,11 @@ color: #404bbf;
 .section-title-portfolio {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize
 }
 
 .portfolio-list-item-title {
@@ -183,4 +191,12 @@ color: #404bbf;
    line-height: 1.5;
    letter-spacing: 0.02em;
    color: #f4f4fd;
+   
+}
+
+.footer {
+    background-color: #2e2f42;  
+}
+.logo-color {
+    color: #f4f4fd
 }
