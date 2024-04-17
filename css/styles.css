@@ -207,12 +207,16 @@ body {
    line-height: 1.5;
    letter-spacing: 0.02em;
    color: #f4f4fd;
-   
 }
 
 .footer {
     background-color: #2e2f42;  
 }
-.logo-color {
-    color: #2e2f42
+
+.page-logo-footer {
+    color: #4d5ae5;
+}
+
+.logo-footer {
+    color: #f4f4fd;
 }
