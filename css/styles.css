@@ -70,17 +70,15 @@ body {
 .section-hero {
     background-color: #2e2f42;
     max-width: 100%;
-    padding: 188px 0;
 }
 
 .main-title {
-    display: block;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;display: block;
-     color: #ffffff;
+    text-align: center;
+    color: #ffffff;
     margin: 0 auto 54px auto;
     max-width: 496px;
     
@@ -95,9 +93,7 @@ body {
     color: #ffffff;
     background: #4d5ae5;
     cursor: pointer;
-    border-radius: 4px;
     min-width: 169px;
-    height: 56px;
     border: none;
     margin: 0 auto;
 }
@@ -184,7 +180,6 @@ body {
 }
 
 .portfolio-list-item-title {
-    sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -216,7 +211,6 @@ body {
 .page-logo-footer {
     font-family: "Raleway", sans-serif;
     color: #4d5ae5;
-    font-family: "Raleway";
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
